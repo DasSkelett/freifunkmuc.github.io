@@ -1,0 +1,28 @@
+main:
+  - name: FAQ
+    url: /faq/
+    weight: 2
+  - name: Wiki
+    url: /wiki/
+    weight: 3
+  - name: Spenden
+    url: /spenden/
+    weight: 3
+
+footer:
+  - name: Kontakt
+    url: /kontakt/
+    weight: 2
+  - name: Impressum
+    url: /impressum/
+    weight: 3
+
+# - wasistfreifunk.md
+# - knotenkarte.md
+# - mitmachen.md
+# - faq.md
+# - wiki.md
+# - kontakt.md
+# - unterstuetzung.md
+# - impressum.md
+# - spenden.md

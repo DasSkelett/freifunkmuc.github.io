@@ -8,6 +8,7 @@ hidden: []
 <div class="post">
   <section>
 
+    {% comment %}
     {%- assign name = 'banner' -%}
     {%- include functions.html func='get_value' -%}
     {%- assign banner = return -%}
@@ -22,6 +23,7 @@ hidden: []
     {%- endif -%}
 
     {%- include views/article.html -%}
+    {% endcomment %}
 
     {%- assign result = hidden | where_exp: "item", "item == 'navigator'" -%}
     {%- if result.size == 0 -%}
